@@ -30,6 +30,7 @@ variable "sshport" {
 - Bools are represented by the unquoted symbols true and false.
 ```t
 variable "enabled" {
+  type = bool
   default = false
 }
 ```
